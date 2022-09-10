@@ -57,3 +57,11 @@ frame1.plot(kind='bar', title='取引量の推移', rot=55, stacked=True)
 ![画像6](./Pandas-Exercises8-6.png)
 
 <br>
+
+## グラフを分割
+```
+frame1.plot(kind='bar', title='取引量の推移', subplots=True, figsize=(5,5))
+```
+![画像7](./Pandas-Exercises8-7.png)
+
+<br>
