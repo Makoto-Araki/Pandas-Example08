@@ -14,7 +14,7 @@ pip install japanize_matplotlib
 ```
 frame1
 ```
-![画像1](./Pandas-Exercises8-1.png)
+![画像1](./image01.png)
 
 <br>
 
@@ -22,7 +22,7 @@ frame1
 ```
 frame1.plot()
 ```
-![画像2](./Pandas-Exercises8-2.png)
+![画像2](./image02.png)
 
 <br>
 
@@ -30,7 +30,7 @@ frame1.plot()
 ```
 frame1.plot(title='取引量の推移')
 ```
-![画像3](./Pandas-Exercises8-3.png)
+![画像3](./image03.png)
 
 <br>
 
@@ -38,7 +38,7 @@ frame1.plot(title='取引量の推移')
 ```
 frame1.plot(title='取引量の推移', style=['gs-', 'bs-', 'rs-'])
 ```
-![画像4](./Pandas-Exercises8-4.png)
+![画像4](./image04.png)
 
 <br>
 
@@ -46,7 +46,7 @@ frame1.plot(title='取引量の推移', style=['gs-', 'bs-', 'rs-'])
 ```
 frame1.plot(kind='bar', title='取引量の推移', rot=55)
 ```
-![画像5](./Pandas-Exercises8-5.png)
+![画像5](./image05.png)
 
 <br>
 
@@ -54,7 +54,7 @@ frame1.plot(kind='bar', title='取引量の推移', rot=55)
 ```
 frame1.plot(kind='bar', title='取引量の推移', rot=55, stacked=True)
 ```
-![画像6](./Pandas-Exercises8-6.png)
+![画像6](./image06.png)
 
 <br>
 
@@ -62,6 +62,6 @@ frame1.plot(kind='bar', title='取引量の推移', rot=55, stacked=True)
 ```
 frame1.plot(kind='bar', title='取引量の推移', subplots=True, figsize=(5,5))
 ```
-![画像7](./Pandas-Exercises8-7.png)
+![画像7](./image07.png)
 
 <br>
